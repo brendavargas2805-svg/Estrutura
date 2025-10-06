@@ -1,0 +1,48 @@
+body {
+    font-family: 'Time New Roman', Times , serif ;
+    margin:0;
+    padding:0;
+}
+
+header {
+    background: rgb(28, 62, 63);
+    color: rgb(72, 106, 108);
+    padding: 50px 0;
+    text-align: center;
+}
+main{
+    padding: 20px; 
+    display: flex;
+    flex-wrap: wrap;
+
+}
+
+.bloco { 
+    border:1px;
+    margin:20px 0;
+    padding:15px;
+    background: rgb(0, 70, 82);
+}
+.bloco img{
+    margin:10px auto;
+    width:10;
+    
+}
+button {
+    margin-left: 30px;
+}
+
+.minha-imagem {
+    position: absolute; 
+    top: 50px;      
+    left: 100px;
+}
+p {
+    margin-top: 33px;
+    margin-left: 10px;
+    padding-top: 33px;
+    padding-left: 10px;
+  };
+  p {
+    font-size: 18px;
+  }
