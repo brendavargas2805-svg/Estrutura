@@ -8,7 +8,37 @@ header {
     background: rgb(28, 62, 63);
     color: rgb(72, 106, 108);
     padding: 50px 0;
+    display: flex;
+    justify-content: space-between; /* A direita*/
+    align-items: center;/* Alinha os itens verticalmente ao centro*/
+}
+h1{
+    margin: 10;
     text-align: center;
+}
+   .logo{
+        row-gap: 0px;
+        width: 100px;
+        height: 65;
+        display:flex;
+        position:relative;
+}
+.menu-direita ul{
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    gap: 20px;
+
+}
+.menu-direita a{
+    color: cornflowerblue;
+    text-decoration: none;
+    font-size: 18px;
+    padding: 8px ;
+}
+a:hover {
+    color: aquamarine;
 }
 main{
     padding: 20px; 
@@ -16,7 +46,26 @@ main{
     flex-wrap: wrap;
 
 }
-
+.inicio{
+    margin: 0px;
+    height: 600px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: linear-gradient(45deg,rgb(31, 31, 67) );
+    background-size: 100% 100%;
+    animation: gradientAnimation 25s ease infinite;/*aplica a animação*/
+    overflow: hidden;/*centraliza o conteudo*/
+    text-align: center;
+}
+.bloco-inicio h2{
+    font-size: 80px;
+    color: aquamarine;
+    animation: slideInUp 10s ease-out;
+    text-shadow: 5px 6px 8px; white(0,0,0,0,7);
+    margin-bottom: 10;
+}
 .bloco { 
     border:1px;
     margin:20px 0;
@@ -46,3 +95,29 @@ p {
   p {
     font-size: 18px;
   }
+
+  button{
+    background-color: azure;
+    color: aquamarine;
+    border:none;
+    border-radius:  5px;
+    padding: 10px 15px;
+    cursor: pointer;
+    font-size: 16px;
+
+  }
+  button:hover{
+    background-color: rgb(9, 176, 120);
+
+  }
+
+  footer{
+    background-color:cadetblue;
+    text-align: center;
+    padding: 20px 0;
+    margin-top: 48px;
+    color: darkslategray;
+    font-size: 14px;
+
+  }
+  
